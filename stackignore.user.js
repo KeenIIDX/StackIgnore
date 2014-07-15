@@ -111,10 +111,10 @@ with_jquery(function($) {
 		el.css("display", "none");
 		el.addClass("hiddenByStackIgnore");
 	}
-	
-	function stackIgnoreBanner(el, html, class) {
+
+	function stackIgnoreBanner(el, html) {
 		return $("<div>" + html + "</div>").css({
-			fontSize: '17px;,
+			fontSize: '17px',
 			backgroundColor: 'rgb(220,240,255)',
 			margin: '5px',
 			padding: '10px',
